@@ -1,0 +1,24 @@
+create table users(
+                      id bigint primary key auto_increment,
+                      name varchar(20),
+                      surname varchar(40),
+                      patronymic varchar(40),
+                      email varchar(50),
+                      role varchar(20)
+);
+insert into users values(1, 'name1', 'surname1', 'patronymic1','test16@email.test', 'Sale_User'),
+                               (2, 'name2', 'surname2', 'patronymic2','test15@email.test', 'Administrator'),
+                               (3, 'name3', 'surname3', 'patronymic3','test14@email.test', 'Customer_User'),
+                               (4, 'name4', 'surname4', 'patronymic4','test13@email.test', 'Sale_User'),
+                               (5, 'name5', 'surname5', 'patronymic5','test12@email.test', 'Secure_API_User'),
+                               (6, 'name6', 'surname6', 'patronymic6','test11@email.test', 'Secure_API_User'),
+                               (7, 'name7', 'surname7', 'patronymic7','test10@email.test', 'Sale_User'),
+                               (8, 'name8', 'surname8', 'patronymic8','test9@email.test', 'Administrator'),
+                               (9, 'name9', 'surname9', 'patronymic9','test8@email.test', 'Customer_User'),
+                               (10, 'name10', 'surname10', 'patronymic10','test7@email.test', 'Secure_API_User'),
+                               (11, 'name11', 'surname11', 'patronymic11','test6@email.test', 'Customer_User'),
+                               (12, 'name12', 'surname12', 'patronymic12','test5@email.test', 'Sale_User'),
+                               (13, 'name13', 'surname13', 'patronymic13','test4@email.test', 'Administrator'),
+                               (14, 'name14', 'surname14', 'patronymic14','test3@email.test', 'Secure_API_User'),
+                               (15, 'name15', 'surname15', 'patronymic15','test2@email.test', 'Customer_User'),
+                               (16, 'name16', 'surname16', 'patronymic16','test1@email.test', 'Customer_User');
